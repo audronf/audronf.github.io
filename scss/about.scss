@@ -1,0 +1,43 @@
+.about {
+    background-image: url("../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: $blue-charcoal;
+}
+
+.main-photo {
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+
+.about-item {
+    padding-top: 20px;
+}
+
+#scroll-down {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+
+.scroll-down:visited {
+    color: $blue-charcoal;
+}

@@ -1,0 +1,22 @@
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-text {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.contact-item-text {
+    padding: 10px;
+}

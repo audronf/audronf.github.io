@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  font-family: 'Roboto';
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.footer {
+  height: 20px;
+  line-height: 20px;
+  background-color: $mineshaft;
+  color: $gondola;
+  text-align: center;
+}

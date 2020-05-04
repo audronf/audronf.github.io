@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.75);
+    background-color: $gondola;
+    border-top: 6px solid $scorpion;
+    z-index: 1;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+ul#navbar li {
+    display: inline;
+    padding: 5px;
+}
+
+.navbar-items-text {
+    font-size: 20px;
+    line-height: 21px;
+    margin: 20px;
+    color: $scorpion
+}

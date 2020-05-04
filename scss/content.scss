@@ -1,0 +1,42 @@
+.content-container {
+    z-index: 0;
+    position: absolute;
+    height: 100%;
+}
+
+.content {
+    background-color: $scorpion;
+    padding-top: 80px;
+    font-size: 15px;
+    text-align: center;
+    color: $gondola;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+
+a {
+    &:link,
+    &:active,
+    &:visited {
+        color: $tundora;
+    } 
+    &:hover {
+        color: $mineshaft;
+    }
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.title:after {
+    display: block;
+    content: '';
+    border-bottom: 2px solid $mineshaft;
+    width: 40%;
+    margin: auto; 
+}
