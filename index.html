@@ -10,9 +10,15 @@
   <link rel="stylesheet" type="text/css" href="scss/application.css">
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <script src="https://kit.fontawesome.com/23e388f869.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
+    <script>
+        AOS.init();
+    </script>
     <header class="navbar">
         <a href="#"><img src="assets/logo.png" class="logo"></a>
         <ul id="navbar" class="margin-top">
@@ -39,6 +45,14 @@
                         <i class="fas fa-briefcase fa-lg"></i>
                         <span class="about-info">Backend developer @ Wolox</span>
                     </p>
+                    <p class="about-item">
+                        <i class="fas fa-gamepad fa-lg"></i>
+                        <span class="about-info">Videogames lover</span>
+                    </p>
+                    <p class="about-item">
+                        <i class="fas fa-laptop fa-lg"></i>
+                        <span class="about-info">Technology enthusiast</span>
+                    </p>
                 </div>
             </div>
             <div id="scroll-down">
@@ -47,106 +61,104 @@
                 </span>
             </div>
         </section>
-        <section id="skills" class="content">
-            <span class="title">Skills</span>
+        <section id="skills" class="content hidden">
+            <span class="title" data-aos="fade-up" >Skills</span>
             <div class="skills-container">
-                <div class="skill">
+                <div class="skill" data-aos="fade-up" >
                     <img src="assets/ruby.png" alt="Ruby" class="tech-icon">
                     <div class="skills-item">
                         <span class="tech-name">Ruby</span>
-                        <span>A veces hago cosas.</span>
+                        <span>Experience in the development of web applications (with Ruby on Rails) and QA automation projects. Ruby is currently my main programming language.</span>
                     </div>
                 </div>
-                <div class="skill">
-                    <img src="assets/cs.png" alt=".NET Core" class="tech-icon">
+                <div class="skill" data-aos="fade-up" >
+                    <img src="assets/net.png" alt=".NET Core" class="tech-icon">
                     <div class="skills-item">
                         <span class="tech-name">.NET Core</span>
-                        <span>A veces hago cosas.</span>
+                        <span>Used .NET Core to develop the backend of several web applications, integrating it with services like Slack, Rollbar or AWS.</span>
                     </div>
                 </div>
-                <div class="skill">
-                    <img src="assets/tech.png" alt="Python" class="tech-icon">
+                <div class="skill" data-aos="fade-up" >
+                    <img src="assets/python.png" alt="Python" class="tech-icon">
                     <div class="skills-item">
                         <span class="tech-name">Python</span>
-                        <span>A veces hago cosas.</span>
+                        <span>Mostly for academic purposes, I used Python for artificial intelligence projects.</span>
                     </div>
                 </div>
-                <div class="skill">
-                    <img src="assets/tech.png" alt="Java" class="tech-icon">
+                <div class="skill" data-aos="fade-up" >
+                    <img src="assets/java.png" alt="Java" class="tech-icon">
                     <div class="skills-item">
                         <span class="tech-name">Java</span>
-                        <span>A veces hago cosas.</span>
+                        <span>Developed both desktop (Swing) and web applications (Spring Boot and Hibernate).</span>
                     </div>
                 </div>
-                <div class="skill">
-                    <img src="assets/tech.png" alt="Javascript" class="tech-icon">
+                <div class="skill" data-aos="fade-up" >
+                    <img src="assets/js.png" alt="Javascript" class="tech-icon">
                     <div class="skills-item">
                         <span class="tech-name">Javascript</span>
-                        <span>A veces hago cosas.</span>
+                        <span>Mostly Node.js as backend language. I’m currently learning Vue.js</span>
                     </div>
                 </div>
-                <div class="skill">
-                    <img src="assets/tech.png" alt="Go Lang" class="tech-icon">
+                <div class="skill" data-aos="fade-up" >
+                    <img src="assets/go.png" alt="Go Lang" class="tech-icon">
                     <div class="skills-item">
                         <span class="tech-name">Go Lang</span>
-                        <span>A veces hago cosas. Esta es una frase demasiado larga. Va a seguir. Sigue sigue sigue sigue sigue sigue sigue sigue sigue</span>
+                        <span>I haven’t used Go Lang in any real project yet, but I really liked learning it.</span>
                     </div>
                 </div>
-                <div class="skill">
-                    <img src="assets/tech.png" alt="HTML & CSS" class="tech-icon">
+                <div class="skill" data-aos="fade-up" >
+                    <img src="assets/html.png" alt="HTML & CSS" class="tech-icon">
                     <div class="skills-item">
                         <span class="tech-name">HTML & CSS</span>
-                        <span>A veces hago cosas.</span>
                     </div>
                 </div>
-                <div class="skill">
-                    <img src="assets/tech.png" alt="Databases" class="tech-icon">
+                <div class="skill" data-aos="fade-up" >
+                    <img src="assets/db.png" alt="Databases" class="tech-icon">
                     <div class="skills-item">
                         <span class="tech-name">Databases</span>
-                        <span>A veces hago cosas.</span>
+                        <span>Experience with both relational (PostgreSQL, MySQL, SQL Server) and NoSQL (MongoDB, Redis) databases.</span>
                     </div>
                 </div>
-                <div class="skill">
-                    <img src="assets/tech.png" alt="Git" class="tech-icon">
+                <div class="skill" data-aos="fade-up" >
+                    <img src="assets/git.png" alt="Git" class="tech-icon">
                     <div class="skills-item">
                         <span class="tech-name">Git</span>
-                        <span>A veces hago cosas.</span>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="projects" class="content">
-            <span class="title">Projects</span>
+        <section id="projects" class="content hidden">
+            <span class="title" data-aos="fade-in">Projects</span>
             <div class="project-container">
-                <div class="project">
+                <div class="project" data-aos="fade-right">
+                    <img src="assets/tech.png" class="project-picture">
+                    <div class="project-info">
+                        <span class="project-name">Algo</span>
+                        <span>DOU</span>
+                     </div>
+                </div>
+                <div class="project" data-aos="fade-right">
                     <img src="assets/tech.png" class="project-picture">
                     <div class="project-info">
                         <span class="project-name">Algo</span>
                         <span>DOU</span>
                     </div>
                 </div>
-                <div class="project">
+                <div class="project" data-aos="fade-right">
                     <img src="assets/tech.png" class="project-picture">
                     <div class="project-info">
                         <span class="project-name">Algo</span>
                         <span>DOU</span>
                     </div>
                 </div>
-                <div class="project">
+                <div class="project" data-aos="fade-right">
                     <img src="assets/tech.png" class="project-picture">
                     <div class="project-info">
                         <span class="project-name">Algo</span>
                         <span>DOU</span>
                     </div>
                 </div>
-                <div class="project">
-                    <img src="assets/tech.png" class="project-picture">
-                    <div class="project-info">
-                        <span class="project-name">Algo</span>
-                        <span>DOU</span>
-                    </div>
-                </div>
-                <div class="project">
+                <div class="project" data-aos="fade-right">
                     <img src="assets/tech.png" class="project-picture">
                     <div class="project-info">
                         <span class="project-name">Algo</span>
@@ -155,28 +167,28 @@
                 </div>
             </div>
         </section>
-        <section id="contact" class="content">
-            <span class="title">Contact me</span>
+        <section id="contact" class="content hidden">
+            <span class="title" data-aos="fade-up">Contact me</span>
             <div class="contact-text">You can find me on these sites. Feel free to contact me.</div>
             <div class="contact">
                 <div class="contact-item">
-                    <a href="https://github.com/audronf"><i class="fab fa-github-square fa-3x"></i></a>
+                    <a href="https://github.com/audronf"><i class="fab fa-github-square fa-3x" data-aos="zoom-in"></i></a>
                     <span class="contact-item-text">Github</span>
                 </div>
                 <div class="contact-item">
-                    <a href="mailto:federicofasitella@gmail.com"><i class="fas fa-envelope fa-3x"></i></a>
+                    <a href="mailto:federicofasitella@gmail.com"><i class="fas fa-envelope fa-3x" data-aos="zoom-in"></i></a>
                     <span class="contact-item-text">Email</span>
                 </div>
                 <div class="contact-item">
-                    <a href="https://www.linkedin.com/in/federico-daniel-fasitella-gomila-97543a173/"><i class="fab fa-linkedin fa-3x"></i></a>
+                    <a href="https://www.linkedin.com/in/federico-daniel-fasitella-gomila-97543a173/"><i class="fab fa-linkedin fa-3x" data-aos="zoom-in"></i></a>
                     <span class="contact-item-text">LinkedIn</span>
                 </div>
                 <div class="contact-item">
-                    <a href="https://www.instagram.com/xaudronf/"><i class="fab fa-instagram-square fa-3x"></i></a>
+                    <a href="https://www.instagram.com/xaudronf/"><i class="fab fa-instagram-square fa-3x" data-aos="zoom-in"></i></a>
                     <span class="contact-item-text">Instagram</span>
                 </div>
                 <div class="contact-item">
-                    <a href="https://twitter.com/raudronf/"><i class="fab fa-twitter-square fa-3x"></i></a>
+                    <a href="https://twitter.com/raudronf/"><i class="fab fa-twitter-square fa-3x" data-aos="zoom-in"></i></a>
                     <span class="contact-item-text">Twitter</span>
                 </div>
             </div>

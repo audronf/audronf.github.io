@@ -145,6 +145,7 @@ ul#navbar li {
   z-index: 0;
   position: absolute;
   height: 100%;
+  width: 100%;
 }
 
 .content {
@@ -237,6 +238,7 @@ a:hover {
   margin-top: 35px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.75);
   transition: transform 0.3s linear;
+  align-items: center;
 }
 .skill:hover {
   transform: scale(1.1, 1.1);
