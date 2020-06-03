@@ -242,7 +242,7 @@ a:hover {
 }
 .skill:hover {
   background-color: #4D4C4C;
-  transform: scale(1.1);
+  transform: scale(1.1, 1.1);
 }
 
 .skills-item {
@@ -281,7 +281,7 @@ a:hover {
 }
 .project:hover {
   background-color: #4D4C4C;
-  transform: scale(1.1);
+  transform: scale(1.1, 1.1);
 }
 
 .project-info {
