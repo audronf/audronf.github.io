@@ -15,8 +15,8 @@
     align-items: center;
 
     &:hover {
-        background-color: $tundora;
         transform: scale(1.1, 1.1);
+        background-color: $tundora;
     }
 }
 

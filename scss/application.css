@@ -241,8 +241,8 @@ a:hover {
   align-items: center;
 }
 .skill:hover {
-  background-color: #4D4C4C;
   transform: scale(1.1, 1.1);
+  background-color: #4D4C4C;
 }
 
 .skills-item {
@@ -280,8 +280,8 @@ a:hover {
   transition: transform 0.4s linear;
 }
 .project:hover {
-  background-color: #4D4C4C;
   transform: scale(1.1, 1.1);
+  background-color: #4D4C4C;
 }
 
 .project-info {

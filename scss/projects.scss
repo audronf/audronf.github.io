@@ -14,8 +14,8 @@
 	transition: transform 0.4s linear;
 
     &:hover {
-		background-color: $tundora;
 		transform: scale(1.1, 1.1);
+		background-color: $tundora;
     }
 }
 
