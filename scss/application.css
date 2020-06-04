@@ -117,7 +117,7 @@ html {
   position: fixed;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 50px;
   width: 100%;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.75);
   background-color: #211216;
@@ -127,18 +127,26 @@ html {
 
 .logo {
   margin-left: 50px;
+  max-height: 40px;
 }
 
 ul#navbar li {
   display: inline;
-  padding: 5px;
+}
+
+.navbar-items {
+  margin-right: 50px;
 }
 
 .navbar-items-text {
-  font-size: 20px;
-  line-height: 21px;
-  margin: 20px;
+  font-size: 18px;
+  line-height: 18px;
   color: #5E5A5B;
+  padding: 15px;
+}
+
+.navbar-items-text:hover {
+  color: #3a3637;
 }
 
 .content-container {
@@ -220,7 +228,11 @@ a:hover {
   bottom: 10px;
 }
 
-.scroll-down:visited {
+.scroll-down:link, :visited {
+  color: #081836;
+}
+
+.scroll-down:hover {
   color: #010813;
 }
 

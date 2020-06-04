@@ -38,6 +38,10 @@
     bottom: 10px;
 }
 
-.scroll-down:visited {
+.scroll-down:link, :visited {
+    color: $black-pearl;
+}
+
+.scroll-down:hover {
     color: $blue-charcoal;
 }
