@@ -1,22 +1,26 @@
+import { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './scss/App.scss';
+import Typed from "react-typed";
 
-function App() {
+const App = () => {
+  const [mode, setMode] = useState("darkMode");
+  useEffect(() => {
+    mode === "darkMode" ? document.getElementById('app-header').classList.add("dark-mode") : document.getElementById('app-header').classList.add("light-mode")
+  }, [mode]);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header id="app-header" className="App-header">
+        <h1>Federico Fasitella</h1>
+        <Typed 
+        className='typed'
+        strings={[
+          "Software Engineer"
+        ]}
+        typeSpeed = { 100 }
+        backDelay = { 5000 }
+        backSpeed = { 30 }
+        loop />
       </header>
     </div>
   );

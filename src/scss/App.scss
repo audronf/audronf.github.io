@@ -16,14 +16,30 @@
 }
 
 .App-header {
-  background-color: $swirl;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: $diesel;
+}
+
+.typed {
+  font-size: calc(10px + 2vmin);
+}
+
+.info {
+  font-size: calc(4px + 2vmin);
+}
+
+.dark-mode {
+  background-color: $woodsmoke;
+  color: $spring-wood;
+}
+
+.light-mode {
+  background-color: $swirl;
+  color: $diesel
 }
 
 .App-link {
