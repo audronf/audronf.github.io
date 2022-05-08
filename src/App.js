@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './scss/App.scss';
 import Typed from "react-typed";
+import TypeIt from 'typeit-react';
 
 const App = () => {
   const [mode, setMode] = useState("darkMode");
@@ -11,15 +12,21 @@ const App = () => {
     <div className="App">
       <div id ="container" class="App-header">
         <h1>Federico Fasitella</h1>
-        <Typed 
+        <TypeIt 
         className='typed'
-        strings={[
-          "Software Engineer"
-        ]}
-        typeSpeed = { 100 }
-        backDelay = { 5000 }
-        backSpeed = { 30 }
-        loop />
+        options = {{
+          strings: [
+          "🎓 Software Engineer @UADE",
+          "💻 Technical Leader @Wolox",
+          "🎮 También soy clavo en rocket league" ],
+          speed: 100,
+          loop: true,
+          waitUntilVisible: true,
+          lifeLike: true,
+          breakLines: false,
+          deleteSpeed: 50,
+          nextStringDelay: 5000
+        }} />
       </div>
     </div>
   );
