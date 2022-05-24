@@ -15,7 +15,7 @@
   }
 }
 
-.App-header {
+.container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -57,4 +57,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.toggle-container {
+  width: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
