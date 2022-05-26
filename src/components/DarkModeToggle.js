@@ -7,8 +7,10 @@ const DarkModeToggle = () => {
         if (!isToggled) {
             document.getElementById('container').classList.remove("light-mode") 
             document.getElementById('container').classList.add("dark-mode")
+            document.getElementById('social').classList.add("tint")
         } else {
             document.getElementById('container').classList.remove("dark-mode")
+            document.getElementById('social').classList.remove("tint")
             document.getElementById('container').classList.add("light-mode")
         }
         setIsToggled(!isToggled);
