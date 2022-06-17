@@ -31,11 +31,13 @@
 .dark-mode {
   background-color: $woodsmoke;
   color: $spring-wood;
+  --ti-cursor-color: #FFF;
 }
 
 .light-mode {
   background-color: $swirl;
-  color: $diesel
+  color: $diesel;
+  --ti-cursor-color: #000;
 }
 
 .toggle-container {
