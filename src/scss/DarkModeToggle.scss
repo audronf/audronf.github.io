@@ -14,7 +14,7 @@
 .toggle-switch .switch {
     position: absolute;
     cursor: pointer;
-    background-color: $gray-olive;
+    background-color: #E4E3C4;
     border-radius: 25px;
     top: 0;
     right: 0;
@@ -32,7 +32,7 @@
     height: 21px;
     background: url('../assets/sun.png');
     background-repeat: no-repeat;
-    background-color: $satin-linen;
+    background-color: #EEEDED;
     background-position: center;
     border-radius: 50%;
     transition: transform 0.3s ease;
@@ -43,7 +43,7 @@
     background: url('../assets/moon.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-color: $shark;
+    background-color: $valhalla;
 }
 
 .toggle-switch input[type="checkbox"]:checked + .switch {
