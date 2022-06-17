@@ -14,7 +14,7 @@
 .toggle-switch .switch {
     position: absolute;
     cursor: pointer;
-    background-color: #E4E3C4;
+    background-color: $beryl-green;
     border-radius: 25px;
     top: 0;
     right: 0;
@@ -32,7 +32,7 @@
     height: 21px;
     background: url('../assets/sun.png');
     background-repeat: no-repeat;
-    background-color: #EEEDED;
+    background-color: $gallery;
     background-position: center;
     border-radius: 50%;
     transition: transform 0.3s ease;
